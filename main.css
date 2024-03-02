@@ -1,0 +1,27 @@
+#red1{
+    color:red;
+}
+
+.thick{
+    font:500px;
+}
+
+.green1{
+    color:green;
+}
+
+h1,h2,h3{
+    background-color: blueviolet;
+}
+
+p{
+    font: 50px;
+    color:brown;
+    margin-left:5px;
+
+
+}
+
+body{
+    background-color:green
+}
