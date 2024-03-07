@@ -1,5 +1,6 @@
 #red1{
     color:red;
+    font-size:30px
 }
 
 .thick{
@@ -16,11 +17,12 @@ h1,h2,h3{
 
 p{
     font: 50px;
-    color:brown;
     margin-left:5px;
 
 
 }
+
+
 
 body{
     background-color:green

@@ -5,18 +5,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 </head>
 <body>
-    <a href="index.html">Home</a>
-    <a href="second_file.html">Second</a>
-    <a href="first_code.html">First</a>
-    <a href="contact.html">Contact</a>
-    <a href="https://github.com/Dihfahsih1" target="_blank">GitHub Profile</a>
-    <a href="lists.html">lists</a>
     
-    <h3>Cool website</h3>
-    <p id="red1">Welcome to my website</p>
-    <p class="thick">We are good at programming</p>
-    <p class="green1">Thanks for visiting us</p>
+    <div class="container">
+        <!-- This row is for navigation -->
+        <div class="row">
+            <nav class="navbar navbar-expand-lg bg-primary">
+                <div class="container-fluid">
+                  <div class="navbar-brand">
+                    <a href="index.html">
+                      <img src="images/logo.png" alt="logo" width="80" height="60" class="mr-auto"/>
+                    </a>
+                    
+                  </div>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html"> Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                      </li>
+
+                      <li class="nav-item" style="text-align:right">
+                        <a class="nav-link" href="index.html"> Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                      </li>
+
+                      <li class="nav-item" style="text-align:right">
+                        <a class="nav-link" href="index.html"> Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                      </li>
+                      
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+        </div>
+        <!-- This row is for the main content -->
+        <div class="row">
+            <div class="col-lg-3">
+              <div class="card bg-danger">
+                <img src="images/image1.png" alt="card image" class="card-img-top mx-auto d-block img-fluid" />
+              
+                <div class="card-img-overlay">
+                  <i class="card-text"> This is an image for a code snippet written in html</i>
+                </div>
+                <div class="card-footer" style="text-align:center">
+                  <button type="submit" class="btn btn-success btn-sm">
+                    <a href="#" class="nav-link">Read More</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 col-md-6">
+                <ol type="i">
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li class="text-muted">PhP</li>
+                    <li>Javascript</li>
+                    <li>Ruby and Rails</li>
+                </ol>
+            </div>
+
+            <div class="col-lg-3">
+                <h2>Un Ordered List Items</h2>
+                <p class="h3">The following are three front end technologies</p>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <div class="jumbotron">
+                    <h3 style="color:azure">Cool website</h3>
+                    <p class="text-success">Welcome to my website</p>
+                    <p class="text-primary">We are good at programming</p>
+                    <p class="text-danger">Thanks for visiting us</p>
+                    <p class="text-default">Welcome to my website</p>
+                    <p class="text-warning">We are good at programming</p>
+                </div>
+            </div>
+        </div>
+        <!-- This is a footer row -->
+        <div class="row" style="border:3px blue solid">
+            <h3>This is the footer</h3>
+        </div>
+    </div>
+    
+
+    <script type="Text/Javascript" src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
