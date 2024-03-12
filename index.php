@@ -6,63 +6,58 @@
     <title>Index</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
 </head>
 <body>
     
     <div class="container">
         <!-- This row is for navigation -->
         <div class="row">
-            <nav class="navbar navbar-expand-lg bg-primary">
-                <div class="container-fluid">
-                  <div class="navbar-brand">
-                    <a href="index.html">
-                      <img src="images/logo.png" alt="logo" width="80" height="60" class="mr-auto"/>
-                    </a>
-                    
-                  </div>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-
-                  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link" href="index.html"> Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                      </li>
-
-                      <li class="nav-item" style="text-align:right">
-                        <a class="nav-link" href="index.html"> Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                      </li>
-
-                      <li class="nav-item" style="text-align:right">
-                        <a class="nav-link" href="index.html"> Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                      </li>
-                      
-                    </ul>
-                  </div>
-                </div>
-            </nav>
+          <?php include_once('nav.html');?>
         </div>
         <!-- This row is for the main content -->
+        <div class="row">
+          <div id="mycarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+            <center>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+
+                <div class="overlay"> </div>
+
+                <img src="images/image1.png" alt="GFG" width="600" height="400" class="d-block w-50"  >
+                <div class="carousel-content">
+                  <h2>Superb training in frontend</h2>
+                  <p style="text-align: center;">We offer training in HTML5, CSS, Bootstrap5 and Javascript Frameworks</p>
+                </div>
+            
+            </div>
+
+              <div class="carousel-item">
+                <div class="overlay"></div>
+
+                <img src="images/logo.png" alt="GFG" width="600" height="400" class="d-block w-50">
+              
+                <div class="carousel-content">
+                  <h2>Superb training in frontend</h2>
+                  <p style="text-align: center;">We offer training in HTML5, CSS, Bootstrap5 and Javascript Frameworks</p>
+                </div>
+              
+              </div>
+              </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#mycarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#mycarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </center>
+            </div>
+        </div>
         <div class="row">
             <div class="col-lg-3">
               <div class="card bg-danger">
@@ -95,10 +90,10 @@
                 <ul>
                     <li>HTML5</li>
                     <li>CSS</li>
-                    <li>Bjumbotronjumbotronjumbotronootstrap</li>
+                    <li></li>
                 </ul>
             </div>
-            <div class="col-lg-jumbotronjumbotronjumbotronjumbotronjumbotron3">
+            <div class="col-lg-3">
                 <div class="jumbotron">
                     <h3 style="color:azure">Cool website</h3>
                     <p class="text-success">Welcome to my website</p>
