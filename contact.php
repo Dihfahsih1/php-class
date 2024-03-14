@@ -27,13 +27,12 @@
 
     <div class="row">
       <div class="col-lg-6">
-        <a href="index.html">
           <img src="images/image1.png" class="img-fluid" />
-      </a>
+      
       </div>
       <div class="col-lg-6">
         <h5>Contact Form</h5>
-        <form action="" method="post">
+        <form action="variables/globals.php" method="POST">
           <div class="form-group">
             <label for="email">Email: </label>
             <input id="email" type="email" name="email" placeholder="Enter your mail" class="form-control">
@@ -41,6 +40,11 @@
           <div class="form-group">
             <label for="firstname">First Name: </label>
             <input type="text" id="firstname" name="firstname" placeholder="Enter your first name" class="form-control">
+          </div>
+
+          <div class="form-group">
+            <label for="firstname">Password: </label>
+            <input type="password" id="firstname" name="password" class="form-control">
           </div>
 
           <div class="form-group">
